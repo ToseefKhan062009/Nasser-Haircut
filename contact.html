@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact & Booking • Nasser Hair Style</title>
+  <meta name="description" content="Precision cuts, beard trims, color and keratin treatments in Brookfield, WI. Walk-ins welcome or call (262) 933-7301." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Nasser <span>Hair Style</span></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a class="cta" href="contact.html">Book / Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container page-intro">
+    <h1>Contact & Booking</h1>
+    <p>Call <a href="tel:+12629337301">(262) 933-7301</a> or send a quick request below. We’ll text or call you back to confirm.</p>
+  </section>
+
+  <section class="container grid-2 contact-grid">
+    <div>
+      <form id="contactForm" class="card" action="thank-you.html" method="GET">
+        <h2>Tell us what you need</h2>
+        <label for="name">Name <span class="req">*</span></label>
+        <input id="name" name="name" type="text" required />
+
+        <label for="phone">Phone <span class="req">*</span></label>
+        <input id="phone" name="phone" type="tel" inputmode="tel" required placeholder="(262) 555-1234" />
+
+        <label for="desc">Description (optional)</label>
+        <textarea id="desc" name="desc" rows="4" placeholder="Tell us the style you want (e.g., mid fade, beard trim)…"></textarea>
+
+        <button class="btn" type="submit">Send request</button>
+        <p class="disclaimer">By submitting, you agree that we may call or text you back to schedule.</p>
+      </form>
+    </div>
+    <div class="maps">
+      <div class="map-card">
+        <h3>Find us on Google Maps</h3>
+
+<iframe
+  title="Google Map"
+  loading="lazy"
+  allowfullscreen
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps?q=17800+W+Bluemound+Rd,+Brookfield,+WI+53045&output=embed">
+</iframe>
+
+      </div>
+      <div class="map-card">
+        <h3>Preview in Apple Maps</h3>
+
+<!-- Apple Maps interactive embeds require MapKit JS + a team token.
+     Below we use Apple Maps Snapshot (static image) as a preview,
+     linked to the live Apple Maps experience. -->
+<a class="apple-maps" href="https://maps.apple.com/?address=17800%20W%20Bluemound%20Rd,%20Brookfield,%20WI%2053045" target="_blank" rel="noopener">
+  <img alt="Apple Maps snapshot" loading="lazy"
+       src="https://maps.apple.com/api/staticmap?center=17800%20W%20Bluemound%20Rd,%20Brookfield,%20WI%2053045&zoom=15&size=600x300&scale=2&lang=en-US&pins=17800%20W%20Bluemound%20Rd,%20Brookfield,%20WI%2053045"/>
+</a>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Visit</h4>
+        <p>17800 W Bluemound Rd, Brookfield, WI 53045</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul class="hours">
+          <li>Mon–Fri: 9:00am–8:00pm</li>
+          <li>Sat: 9:00am–5:00pm</li>
+          <li>Sun: Closed</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Call</h4>
+        <p><a href="tel:+12629337301">(262) 933-7301</a></p>
+      </div>
+    </div>
+    <p class="copyright">© 2025 Nasser Hair Style • Brookfield, WI</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
